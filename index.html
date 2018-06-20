@@ -2,9 +2,50 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Hello World</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/master.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <title>Meeting of the Minds</title>
   </head>
   <body>
-
+      <section id="zero">
+        <nav id="top-nav">
+          <ul>
+            <li> <a href="index.html#two">Video</a> </li>
+            <li> <a href="index.html#three">RSVP</a> </li>
+            <li> <a href="index.html#four">Song Requests</a> </li>
+          </ul>
+        </nav>
+      </section>
+      <section id="one">
+          <div class="header">
+              <h4>Welcome to the second annual meeting of the minds</h4>
+              <h3>A Salute to All Nations But Mostly:</h3>
+              <h1>America</h1>
+          </div>
+      </section>
+      <section id="two">
+          <div class="video">
+            <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+      </section>
+      <section id="three">
+          <div class="rsvp">
+            <form action="sendmail.php" method="post">
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" />
+              <br>
+              <input type="radio" name="attendence" value="yes"> I will attend<br>
+              <input type="radio" name="attendence" value="no"> I won't be able to attend<br>
+              <br>
+              <input type="submit" name="submit" value="Submit" />
+            </form>
+          </div>
+      </section>
+      <section id="four">
+          <div class="songs">
+            SONG REQUESTS GO HERE
+          </div>
+      </section>
   </body>
 </html>
