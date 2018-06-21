@@ -8,7 +8,7 @@
     <title>Meeting of the Minds</title>
   </head>
   <body>
-      <section id="zero">
+      <!-- <section id="zero">
         <nav id="top-nav">
           <ul>
             <li> <a href="index.html#two">Video</a> </li>
@@ -16,7 +16,8 @@
             <li> <a href="index.html#four">Song Requests</a> </li>
           </ul>
         </nav>
-      </section>
+      </section> -->
+
       <section id="one">
           <div class="header">
               <h4>Welcome to the second annual meeting of the minds</h4>
@@ -26,14 +27,16 @@
       </section>
       <section id="two">
           <div class="video">
-            <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/oFlymQ0Algw?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
       </section>
+      <div class="rsvp-title">
+        <h1>RSVP</h1>
+      </div>
       <section id="three">
-          <div class="rsvp">
+          <div class="rsvp"> <br>
             <form action="https://formspree.io/virgilioreinoso@gmail.com" method="post">
-              <label for="name">Name:</label>
-              <input type="text" name="name" id="name" />
+              <input type="text" name="name" id="name" placeholder="First and Last Name"/>
               <br>
               <input type="radio" name="attendence" value="yes"> I will attend<br>
               <input type="radio" name="attendence" value="no"> I won't be able to attend<br>
@@ -42,9 +45,15 @@
             </form>
           </div>
       </section>
+      <div class="song-title">
+        <h1>Song Requests</h1>
+      </div>
       <section id="four">
-          <div class="songs">
-            SONG REQUESTS GO HERE
+          <div class="songs"> <br>
+            <form action="https://formspree.io/virgilioreinoso@gmail.com" method="post">
+              <input type="text" name="song" id="song" placeholder="Song Name and Artist"/>
+              <input type="submit" name="submit" value="Submit" />
+            </form>
           </div>
       </section>
   </body>
